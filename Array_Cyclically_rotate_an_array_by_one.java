@@ -11,7 +11,7 @@ public class Array_Cyclically_rotate_an_array_by_one {
             arr[i+1] = arr[i];
         }
         arr[0] = temp;
-        System.out.println("");
+        System.out.println();
         System.out.println("Elements After Rotation : ");
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
